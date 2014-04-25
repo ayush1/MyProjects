@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+   <LinearLayout
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:tools="http://schemas.android.com/tools"
+       android:layout_width="wrap_content"
+       android:layout_height="fill_parent"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentRight="true"
+       android:background="@drawable/inner1"
+       android:orientation="vertical">
+
+       <TextView
+           android:id="@+id/textView6"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="100dp"
+           android:textColor="#FF0000"
+           android:text="Bluetooth is NOT Enabled,first Enable it"
+           android:textAppearance="?android:attr/textAppearanceLarge" />
+
+       <Button
+           android:id="@+id/button7"
+           android:layout_width="256dp"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="30dp"
+           android:layout_marginTop="100dp"
+           android:text="Back" />
+   
+   </LinearLayout>
+
+</RelativeLayout>

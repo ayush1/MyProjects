@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+   <LinearLayout
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:tools="http://schemas.android.com/tools"
+       android:layout_width="wrap_content"
+       android:layout_height="fill_parent"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentRight="true"
+       android:background="@drawable/inner1"
+       android:orientation="vertical" >
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:layout_marginTop="15dp"
+           android:text="Bluetooth"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:textColor="#FF0000" />
+
+       <Button
+           android:id="@+id/button2"
+           android:layout_width="256dp"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="40dp"
+           android:layout_marginTop="20dp"
+           android:text="ON/OFF" />
+
+       <TextView
+           android:id="@+id/textView2"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:text="Find Device"
+           android:gravity="center"
+           android:textColor="#FF0000"
+           android:layout_marginTop="25dp"
+           android:textAppearance="?android:attr/textAppearanceLarge" />
+
+       <Button
+           android:id="@+id/button3"
+           android:layout_width="260dp"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="40dp"
+           android:layout_marginTop="30dp"
+           android:text="Search" />
+
+       <TextView
+           android:id="@+id/textView3"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="35dp"
+           android:gravity="center"
+           android:text="Paired Device"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:textColor="#FF0000" />
+
+       <Button
+           android:id="@+id/button4"
+           android:layout_width="262dp"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="40dp"
+           android:layout_marginTop="40dp"
+           android:text="Check" />
+    
+    </LinearLayout>
+
+</RelativeLayout>

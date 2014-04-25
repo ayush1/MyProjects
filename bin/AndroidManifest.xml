@@ -1,0 +1,58 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.letschat"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LetsChatActivity"
+            android:label="@string/title_activity_lets_chat" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BluetoothTypeActivity"
+            android:label="Bluetooth Option" >
+        </activity>
+        <activity
+            android:name=".BluetoothOnActivity"
+            android:label="Bluetooth ON/OFF" >
+        </activity>
+        <activity android:name=".EnableBluetoothActivity" >
+        </activity>
+        <activity android:name=".DisableBluetoothActivity" >
+        </activity>
+        <activity android:name=".BluetoothLayoutActivity" >
+        </activity>
+        <activity android:name=".BluetoothListActivity" >
+        </activity>
+        <activity android:name=".BluetoothBackActivity" >
+        </activity>
+        <activity android:name=".BluetoothSearchActivity" >
+        </activity>
+       
+        <activity
+            android:name=".BluetoothConnetivityActivity"
+            android:label="@string/title_activity_bluetooth_connetivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent" >
+
+
+   <LinearLayout
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:tools="http://schemas.android.com/tools"
+       android:background="@drawable/chat1"
+       android:layout_width="wrap_content"
+       android:layout_height="fill_parent"
+       android:orientation="vertical" >
+
+       <TextView
+           android:id="@+id/text"
+           android:layout_width="320dp"
+           android:layout_height="84dp"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="183dp"
+           android:layout_marginLeft="6dp"
+           android:text="Welcome To Let&apos;s Chat Application"
+           android:textSize="30px" />
+
+       <Button
+           android:id="@+id/button1"
+           android:layout_width="188dp"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="50dp"
+           android:layout_marginTop="42dp"
+           android:text="START" />
+
+   </LinearLayout>
+
+</RelativeLayout>
